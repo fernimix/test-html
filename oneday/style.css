@@ -1,1 +1,20 @@
 
+h2, h3 {
+  text-align:center;
+}
+h3{
+  border:1px dashed 333en;
+  padding:10px;
+  margin:0;
+}
+
+img{
+  width:400px;
+}
+
+#Contenedor{
+  border:3px dotted red;
+  height:auto;
+  display:inline-block;
+  width:825px;
+}
