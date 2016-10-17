@@ -66,6 +66,20 @@ body{
 	box-shadow:0 0 5px #9ddff5;
 }
 
+/* Red Button */
+#navigationMenu .day1 { 
+  background-color:#F22613;
+  border-color:#F22613;
+}
+
+#navigationMenu .prueba {	background-position:0 0;}
+#navigationMenu .prueba:hover { background-position:0 -39px;}
+#navigationMenu .prueba span{
+	background-color:#F22613;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #D64541;
+}
+
 /* Green Button */
 #navigationMenu .day1 { 
   background-color:#7da315;
