@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-	background: url("https://i.imgsafe.org/t/caed64d.jpg");
+	background: url("img/caed64d.jpg");
 	-webkit-animation: clouds 30s linear infinite;
 	        animation: clouds 30s linear infinite;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 #rueda1 {
-	background: url("https://i.imgsafe.org/t/ce046ee.png") no-repeat center center;
+	background: url("img/ce046ee.png") no-repeat center center;
 	background-size: 99% auto;
 	display: block;
 	width: 50px;
@@ -86,7 +86,7 @@ body {
  }
 
  #rueda2 {
-	background: url("https://i.imgsafe.org/t/ce046ee.png") no-repeat center center;
+	background: url("img/ce046ee.png") no-repeat center center;
  	background-size: 99% auto;
  	display: block;
  	width: 50px;
