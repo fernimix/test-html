@@ -79,7 +79,7 @@ body {
 	height: 50px;
 	position: absolute;
 	left: 46px;
-	bottom: 2.9px;
+	bottom: 0px;
 	z-index: 4;
 	-webkit-animation: giro 1s linear infinite;
 					animation: giro 1s linear infinite;
@@ -93,7 +93,7 @@ body {
  	height: 50px;
  	position: absolute;
  	right: 48.8px;
- 	bottom: 2.9px;
+ 	bottom: 0px;
 	z-index: 4;
 	-webkit-animation: giro 1s linear infinite;
 					animation: giro 1s linear infinite;
