@@ -14,8 +14,8 @@ body{
 	height:39px;
 	padding:2px;
 	width:40px;
-  display: inline;
-  list-style: none;
+  	display: inline;
+  	list-style: none;
 }
 
 #navigationMenu span{
@@ -166,7 +166,7 @@ h4 {
 }
 
 a, a:visited,a:active {
-	color:#0196e3;
+	color:#DADFE1;
 	text-decoration:none;
 	outline:none;
 }
