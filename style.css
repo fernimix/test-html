@@ -122,13 +122,13 @@ body{
 
 /* Purple Button */
 #navigationMenu .day5 {
-  background-color: #D2D7D3;
-  border-color: #D2D7D3;
+  background-color: #1BA39C;
+  border-color: #1BA39C;
 }
 #navigationMenu .day5 { background-position:-152px 0;}
 #navigationMenu .day5:hover { background-position:-152px -39px;}
 #navigationMenu .day5 span{
-	background-color:#D2D7D3;
+	background-color: #1BA39C;
 	color:#460f35;
 	text-shadow:1px 1px 0 #95A5A6;
 }
