@@ -1,4 +1,4 @@
-*{
+{
 	margin:0;
 	padding:0;
 }
@@ -7,8 +7,9 @@ body{
 	font-size:14px;
 	color:#DADFE1;
 	background:#fff no-repeat;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Shadows Into Light', cursive;
 }
+
 
 #navigationMenu li{
 	height:39px;
@@ -156,9 +157,8 @@ body{
 
 h1{
 	color:#000;
-	font-size:30px;
+	font-size:60px;
 	font-weight:normal;
-	padding:60px 0 20px;
 	text-align:center;
 }
 
@@ -168,14 +168,14 @@ h2{
 }
 
 h1,h2{
-	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+font-family: 'Shadows Into Light', cursive;
 }
 
 h4 {
 	color:#000;
-	font-size:15px;
+	font-size: 20px;
+  
 	font-weight:normal;
-	padding:0px 0 0px;
 	text-align:center;
 }
 
