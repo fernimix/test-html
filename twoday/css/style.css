@@ -1,0 +1,27 @@
+body {
+  background: black;
+}
+
+/* Formato del slider */
+.slider {
+  max-width: 640px;    /* Tamaño (máximo) de ancho de las imágenes */
+  margin: auto;
+}
+
+h2 {
+  color: #fff;
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  z-index: 1;
+}
+/* Dos background para añadir transparencia a la caja del texto */
+h2 span {
+  color: white;
+  font: bold 24px;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  z-index: 1;
+}
