@@ -23,5 +23,50 @@ h2 span {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
-  z-index: 1;
+}
+
+/* Contenedor del acordeón */
+[data-accordion] {
+  border: 1px solid #888;
+  margin: 30px;
+  cursor: pointer;
+  
+}
+[data-control] {
+  background: #CCC;
+  padding: 5px;  
+}
+
+/* Decoración */
+.accordion [data-control]::before {
+  content: '⊞ ';
+  color: #888;
+}
+.accordion.open [data-control]::before {
+  content: '⊟ ';
+  color: #444;
+}
+
+/* Mensaje en pantalla */
+/* Ventana modal */
+#modal-card {
+  border: 1px solid #888;
+  margin: 2px auto;
+  width: 400px;
+  padding: 25px;
+  box-shadow: 2px 2px 10px RGBA(0,0,0, .5);
+  background: #FFF;
+  text-align: center;
+  display: none;
+}
+
+/* Fondo gris */
+.modal-background {
+  background: RGBA(0,0,0, .5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -5;
 }
